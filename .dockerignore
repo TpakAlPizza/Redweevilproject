@@ -1,0 +1,11 @@
+data/
+artifacts/checkpoints/
+artifacts/splits/
+reports/audit/
+tests/
+web/app.py.original
+.git/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

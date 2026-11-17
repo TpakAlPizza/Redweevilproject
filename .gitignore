@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Data and generated artifacts stay out of git.
+data/raw/**
+!data/raw/**/.gitkeep
+data/metadata.csv
+data/metadata.csv.template
+artifacts/checkpoints/
+artifacts/uploads/
+reports/audit/
+reports/report_*/
+reports/test/
+
+# Bundles and split manifests are versioned deliberately -- keep them if the
+# repo is your model registry, ignore them if you use object storage instead.
+# artifacts/bundles/
+# artifacts/splits/

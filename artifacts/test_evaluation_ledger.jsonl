@@ -1,0 +1,1 @@
+{"evaluated_at": "20260909-185124", "weights_sha256": "96a80aa9ddd7252a0f0fb3b557cf4b40f9dcef7d65d8c1838a15009c051eea0b", "model_version": "0.1.0+efficientnet_b0.20260909185105", "manifest_version": "20260909-181039_seed1337_fb02ca6c3c098c5b", "n_test_images": 40, "allow_repeat_used": false, "headline": {"sensitivity_infected": 1.0, "specificity_healthy": 1.0, "roc_auc": 1.0}}

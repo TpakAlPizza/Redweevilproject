@@ -1,0 +1,21 @@
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: palm-screen-api:latest
+    ports:
+      - "8000:8000"
+    environment:
+      PALMSCREEN_DEVICE: cpu
+      # Comma-separated list of frontend origins. Add your deployed site here.
+      PALMSCREEN_CORS_ORIGINS: "http://localhost:5173,http://localhost:3000,http://localhost:5500"
+      PALMSCREEN_MAX_UPLOAD_MB: "12"
+      PALMSCREEN_MAX_PIXELS: "40000000"
+      PALMSCREEN_STORE_UPLOADS: "false"   # user photos are never written to disk
+      PALMSCREEN_REQUIRE_BUNDLE: "false"  # start even with no model, report "degraded"
+    volumes:
+      # Train on the Mac, mount the resulting bundle here read-only.
+      - ../artifacts/bundles:/app/artifacts/bundles:ro
+      - ../reports:/app/reports:ro
+    restart: unless-stopped

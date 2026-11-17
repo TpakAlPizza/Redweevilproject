@@ -1,0 +1,240 @@
+{
+  "bundle_format_version": 1,
+  "model_version": "0.1.0+efficientnet_b0.20260909185105",
+  "created_at": "2026-09-09T18:51:05",
+  "arch": "efficientnet_b0",
+  "weights_file": "model.pt",
+  "weights_sha256": "96a80aa9ddd7252a0f0fb3b557cf4b40f9dcef7d65d8c1838a15009c051eea0b",
+  "state_dict_hash": "8128e103fe949365cc9be8582d087030d9e0af21c6090773727110d6ead43814",
+  "n_parameters": 4008829,
+  "preprocess": {
+    "image_size": 224,
+    "resize_shorter_to": 256,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "interpolation": "bilinear",
+    "apply_exif_transpose": true,
+    "color_mode": "RGB"
+  },
+  "class_map": {
+    "0": "healthy",
+    "1": "infected"
+  },
+  "positive_class": "infected",
+  "calibration": {
+    "method": "platt",
+    "params": {
+      "a": 1.7965296301010423,
+      "b": 0.8614811472984576
+    },
+    "fitted_on": "dev_out_of_fold",
+    "n_fit": 160
+  },
+  "threshold": {
+    "threshold": 0.5882072293508652,
+    "policy": "max_specificity_at_recall",
+    "target_recall": 0.9,
+    "achieved_recall_dev_oof": 0.9014084507042254,
+    "achieved_specificity_dev_oof": 0.9775280898876404,
+    "review_band": 0.1,
+    "selected_on": "dev_out_of_fold",
+    "notes": [
+      "Chosen as the most specific threshold reaching >= 90% infected recall on development out-of-fold predictions.",
+      "0.50 was not assumed. Applying this threshold to a population with a different infection prevalence changes precision and NPV, not sensitivity or specificity."
+    ]
+  },
+  "disclaimer": "Screening aid only. This is not an agricultural diagnosis. Confirm any result with a qualified agronomist or plant-health inspection.",
+  "config": {
+    "project_name": "palm-screen",
+    "model_version": "0.1.0",
+    "data": {
+      "raw_dir": "data/raw",
+      "metadata_csv": "data/metadata.csv",
+      "classes": [
+        "healthy",
+        "infected"
+      ],
+      "positive_class": "infected",
+      "group_key_priority": [
+        "tree_id",
+        "session_id",
+        "site_id"
+      ],
+      "phash_pseudo_groups": true,
+      "phash_group_distance": 6,
+      "allow_image_level_split": true,
+      "holdout_column": null,
+      "holdout_values": []
+    },
+    "split": {
+      "test_fraction": 0.2,
+      "n_folds": 5,
+      "seed": 1337,
+      "manifest_dir": "artifacts/splits"
+    },
+    "train": {
+      "arch": "efficientnet_b0",
+      "image_size": 224,
+      "batch_size": 16,
+      "num_workers": 2,
+      "head_epochs": 6,
+      "finetune_epochs": 25,
+      "lr_head": 0.001,
+      "lr_backbone": 0.0001,
+      "weight_decay": 0.0001,
+      "label_smoothing": 0.0,
+      "unfreeze_last_n_blocks": 3,
+      "freeze_batchnorm": true,
+      "early_stopping_metric": "val_pr_auc",
+      "early_stopping_patience": 6,
+      "early_stopping_min_delta": 0.0001,
+      "grad_clip_norm": 1.0,
+      "use_class_weights": false,
+      "amp": false,
+      "seed": 1337,
+      "checkpoint_dir": "artifacts/checkpoints",
+      "augmentation": {
+        "random_resized_crop": true,
+        "crop_scale_min": 0.8,
+        "crop_scale_max": 1.0,
+        "rotation_degrees": 12,
+        "horizontal_flip": true,
+        "vertical_flip": false,
+        "brightness": 0.15,
+        "contrast": 0.15,
+        "saturation": 0.1,
+        "hue": 0.02,
+        "mixup": false,
+        "cutmix": false
+      }
+    },
+    "threshold": {
+      "policy": "max_specificity_at_recall",
+      "target_recall": 0.9,
+      "fixed_threshold": 0.5,
+      "review_band": 0.1
+    },
+    "calibration": {
+      "method": "platt"
+    },
+    "report": {
+      "output_dir": "reports",
+      "bootstrap_iterations": 2000,
+      "ece_bins": 10,
+      "prevalence_grid": [
+        0.01,
+        0.05,
+        0.1,
+        0.25,
+        0.5
+      ]
+    }
+  },
+  "config_fingerprint": "fb02ca6c3c098c5b",
+  "provenance": {
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "processor": "arm",
+    "git_commit": null,
+    "packages": {
+      "python": "3.13.0",
+      "torch": "2.14.0",
+      "torchvision": "0.29.0",
+      "numpy": "2.5.3",
+      "sklearn": "1.9.0",
+      "PIL": "12.3.0",
+      "scipy": "1.18.1",
+      "pandas": "3.0.5"
+    },
+    "device": {
+      "device": "mps",
+      "reason": "Apple Silicon GPU (MPS) available",
+      "mps_available": true,
+      "mps_built": true
+    }
+  },
+  "training_summary": {
+    "n_dev_images": 160,
+    "n_dev_groups": 133,
+    "class_counts": {
+      "healthy": 89,
+      "infected": 71
+    },
+    "manifest_version": "20260909-181039_seed1337_fb02ca6c3c098c5b",
+    "grouping": {
+      "strategy": "metadata_column",
+      "column": "tree_id",
+      "n_groups": 155,
+      "trust": "strong",
+      "warnings": []
+    },
+    "cv_summary_dir": "artifacts/checkpoints/cv_efficientnet_b0_20260909-181823",
+    "final_fit": {
+      "best_epoch": 5,
+      "best_metric": -0.08242634423077107,
+      "metric_name": "train_loss",
+      "epochs_run": 7,
+      "stopped_early": false,
+      "device": "mps",
+      "device_reason": "Apple Silicon GPU (MPS) available",
+      "n_train": 160,
+      "n_val": 0,
+      "model_hash": "8128e103fe949365cc9be8582d087030d9e0af21c6090773727110d6ead43814",
+      "seconds": 11.1,
+      "history": [
+        {
+          "epoch": 0,
+          "phase": "head",
+          "train_loss": 0.5889350175857544,
+          "val_loss": null
+        },
+        {
+          "epoch": 1,
+          "phase": "head",
+          "train_loss": 0.30622146278619766,
+          "val_loss": null
+        },
+        {
+          "epoch": 2,
+          "phase": "head",
+          "train_loss": 0.18468747064471244,
+          "val_loss": null
+        },
+        {
+          "epoch": 3,
+          "phase": "head",
+          "train_loss": 0.13369237631559372,
+          "val_loss": null
+        },
+        {
+          "epoch": 4,
+          "phase": "head",
+          "train_loss": 0.09542828686535358,
+          "val_loss": null
+        },
+        {
+          "epoch": 5,
+          "phase": "head",
+          "train_loss": 0.08242634423077107,
+          "val_loss": null
+        },
+        {
+          "epoch": 6,
+          "phase": "finetune",
+          "train_loss": 0.3153993159532547,
+          "val_loss": null
+        }
+      ]
+    },
+    "dev_oof_pr_auc": 0.9750418044397952
+  },
+  "selection_note": "Architecture, calibration and threshold were selected using development out-of-fold predictions only. The locked test set was not consulted."
+}

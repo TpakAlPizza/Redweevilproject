@@ -1,0 +1,201 @@
+image_path,label,label_binary,group_id,split,fold,sha256,phash,width,height
+data/raw/healthy/photo_1448-03-27 11.17.30.jpeg,healthy,0,hea__grp_0000,dev,3,649fcc83a4498738ae0b351d6ed82e2e49397c198401831a4ca44ef5c41a5347,b3c1f7e978f8b060,960,1280
+data/raw/healthy/photo_1448-03-27 11.17.33.jpeg,healthy,0,hea__grp_0001,dev,0,eab3c01ead2258b96d96e4c9b422db8a15db91dfa9baf4b980785405f6cd94a6,f6f8f9498796928f,960,1280
+data/raw/healthy/photo_1448-03-27 11.17.51.jpeg,healthy,0,hea__grp_0002,dev,4,a061897ea1eb145395f7f603ae19beaf978ce2b7efe2bb1065a4d69ad2c4e22e,b05bb5460ec2e9c9,960,1280
+data/raw/healthy/photo_1448-03-27 11.17.52.jpeg,healthy,0,hea__grp_0003,dev,3,9d3b780d9ac8deca74e8b9ba3b21b9a5c03abbc8733d6f5bdf95c98305bc7c3f,f118b55706faa8d9,960,1280
+data/raw/healthy/photo_1448-03-27 11.17.53.jpeg,healthy,0,hea__grp_0004,dev,4,5d6bb83c175ac78d383cb99670993fbf3419266fb9188a323c31edc4de6163f8,a319b50d4c5c5297,960,1280
+data/raw/healthy/photo_1448-03-27 11.17.54.jpeg,healthy,0,hea__grp_0005,dev,1,c68f31f41ea716fb85cff2e082a2b2dd6c95bd38d848dd1cc3b7a69dcb743140,f739f81c9c85d3c7,960,1280
+data/raw/healthy/photo_1448-03-27 11.17.55.jpeg,healthy,0,hea__grp_0006,dev,3,e498aea17cbada44d60f3b77800531581331d375d7e43b4d32d40f371aa6b49a,f3cfc18f2a07b6b8,960,1280
+data/raw/healthy/photo_1448-03-27 11.17.56.jpeg,healthy,0,hea__grp_0007,dev,1,3aa3f4aeb294195cd682bfd906f3f5731c874759f837bd3fb6153c424ed2f6ae,a3b9b92b8b4a0bc3,960,1280
+data/raw/healthy/photo_1448-03-27 11.17.57.jpeg,healthy,0,hea__grp_0008,dev,3,96347413d7c809f16a64394cece816d869c31bb9e5ca89986fe45747a1ab4d84,a33aab2978445456,960,1280
+data/raw/healthy/photo_1448-03-27 11.17.58.jpeg,healthy,0,hea__grp_0009,dev,4,d5c3b8490320fad6af3277132ad513d5cbab6c4bea500d493812b44b3a6419d0,f770b84baffe1092,960,1280
+data/raw/healthy/photo_1448-03-27 11.17.59.jpeg,healthy,0,hea__grp_0010,dev,1,033170075bd2be4bb60326fa786b88843b9848aa9162c0899119513b6c76024e,a6459399d6d6e1f1,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.01 (1).jpeg,healthy,0,hea__grp_0011,dev,4,7ba3c9206e6bdd70a47c8f667ad2ce4a260780d913ceb1cd9a53fbcefab41f1c,e6e59dd6817b7810,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.01.jpeg,healthy,0,hea__grp_0011,dev,4,f90fc4ea8fed94827cd1e4d8baa2f8434a2d838735e3645f16632fc7e437a63c,e660e2010faf78eb,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.02.jpeg,healthy,0,hea__grp_0012,dev,0,7e99d7ac6e789b60d6008f576d905f6b400591b2ebb88ec081598809ca5964a9,a644cf5bc2e26551,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.03.jpeg,healthy,0,hea__grp_0013,test,-1,48649192cf5499a0ce0fbd9cdb5b55e15a44f35739c52c0d5ab2aa8221927942,e6417962313999ae,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.04.jpeg,healthy,0,hea__grp_0014,test,-1,e8918bd0c3250c08465db29dad7e4e2b8524fd34241cc43e67935d18a828b66d,a7adb41d9783a6a7,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.05.jpeg,healthy,0,hea__grp_0015,dev,1,49a64b60d1e55719bf72fc0ef81e98ec04a0b949393b1e7cd486ccc7bcf8ff1b,e6d91716281a68bd,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.06.jpeg,healthy,0,hea__grp_0016,test,-1,06921616c36ac843907da2d3a1d7c109764b931f605ba26e5340e80919793173,e629b16a285e1ad6,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.07 (1).jpeg,healthy,0,hea__grp_0016,test,-1,776d3a00de6c1a5e7e788505516aa1567a7dc9a53a558ad2f18356d8ccbb5d67,e6c6b61ba7e338b0,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.07.jpeg,healthy,0,hea__grp_0016,test,-1,840fb7439bd76b8cce07e5940a49590580253fff98cef493a3aa55c66a065b38,e629b16a285e1adc,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.09.jpeg,healthy,0,hea__grp_0017,dev,1,849a8c3770ab737202b8e0fb4cd10ad4513929d0778f293bf1ea13c838b9ae7d,f678891ddc5a038f,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.10.jpeg,healthy,0,hea__grp_0018,dev,4,7cdf592915b06546895538c4b406df1a1ad36196219d588e36490898341070bf,a357e6e221a42b2d,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.11.jpeg,healthy,0,hea__grp_0019,test,-1,0843064da6fe7cc4b791fdb3c31738d618c665fd3c0350a418bd8a3e7dada33b,f36eb278a8050f8f,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.12.jpeg,healthy,0,hea__grp_0020,dev,3,710ca5e679bd824f813a64ed9679f9a7d3c23a0b78df7b5271065fc8f1d693db,b1cfede015b7a0ca,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.13.jpeg,healthy,0,hea__grp_0021,test,-1,64cdf563824a745f67e678f7836f79493f549b4f73a84aab7f0866f04bfe369b,b1f00e29bc4c70de,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.14.jpeg,healthy,0,hea__grp_0022,dev,4,0e2d456ac3ff89bdf94a66c2d6557e750c02dd8984487eb856ef154868cac515,a4133d689745d170,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.15.jpeg,healthy,0,hea__grp_0023,dev,2,171719a4315133d1954da05eaba285204a321fcac3150e99cb3cdfb0aeb0cf94,e63db600e1347df0,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.16 (1).jpeg,healthy,0,hea__grp_0024,test,-1,63e76964a586fd81db97fe8a0ca9708c745833d09fd19760cef735e2f812b28a,b3dad387e7749038,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.16.jpeg,healthy,0,hea__grp_0024,test,-1,9ad09ec25a20d275b9128d2dcbb9143a581157b5628b53d6c81493364a8e2d5f,f3143cd89b1fb2b1,960,1280
+data/raw/healthy/photo_1448-03-27 11.18.17.jpeg,healthy,0,hea__grp_0025,dev,4,a230b6e09f8d25cd60ee5e285a79a26d5d56a428ee7d513c6970abc2c8522236,b6c0f94986d6b6bd,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.22 (1).jpeg,healthy,0,hea__grp_0026,dev,0,ab6ee8c8c6d036daba75f7674a0806ac88ad8f8387a791ebeb9c5d7757f23505,b6292903d6d8f9f1,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.23.jpeg,healthy,0,hea__grp_0027,dev,0,a726ae2de9705f69a6b52bbf5457b9611b8ee7717119a9a5f8e7e248692df77a,e69cc2c2a7075ff8,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.24.jpeg,healthy,0,hea__grp_0028,dev,0,f7f5d088affed5e56feaa766f9ccd76dd55a8316249f578116383db5214347ec,e6a5adbdb109072d,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.25.jpeg,healthy,0,hea__grp_0029,dev,1,c98e8ba19c8309b890669db86764e3e252ccebf60092c62d87e283e3646a636b,b26eef8d81139750,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.26 (1).jpeg,healthy,0,hea__grp_0030,dev,3,f40162528e5d4a17b28240cf5f13be30ae995a0815cd2870c3b4758aee780cb6,b3ae9cd4f0ea9bc3,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.26.jpeg,healthy,0,hea__grp_0030,dev,3,47e22a1a3d049add84e52dc9855e590ddb02695d3821d68f6d9ab38a764469be,e36d8e5b9692b0e5,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.27.jpeg,healthy,0,hea__grp_0031,dev,4,20604832b53d34681ad68eb7cfb4a470bbe49de88a5863dbfd3d8214d51a9756,a32f08b25b1838f5,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.28 (1).jpeg,healthy,0,hea__grp_0032,test,-1,c009c9bca52537bb450a62e220caf62da37490128dd74c718fda9f21e8acc19b,b60648e3534df387,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.28.jpeg,healthy,0,hea__grp_0032,test,-1,44245028d52184d8aaaa58c225f9cff75b703eed25aa95abc807fc5627212fef,b2741df348e8c278,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.29.jpeg,healthy,0,hea__grp_0033,dev,0,33fc7cf2edd8d847e0500f46a79c3447c5f09797acd5bcf267d9e559705f64dc,a641694c9ebe6c83,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.30.jpeg,healthy,0,hea__grp_0034,dev,4,9efb5ed26c1c2ad2a4e496984db501f04018dd952307ac9fb594a5f777d7578c,a746661c9b9a4e9a,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.31 (1).jpeg,healthy,0,hea__grp_0035,test,-1,542b0955a8376cee23803d8953a413561a3324a1c8c1e882f98fdaf64cd6b700,e6059f45d28ec9ed,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.31.jpeg,healthy,0,hea__grp_0035,test,-1,fa1177af680617ace4e5a4821e902a3dbf903d9f8adefbf9d559466b80919826,a3c8e8f8e85fd685,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.32.jpeg,healthy,0,hea__grp_0036,dev,2,b135938ff7e5c4295f690a8b887dd4f92355281e1942780ad8987703318e7c82,a628e93da5969997,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.33.jpeg,healthy,0,hea__grp_0037,test,-1,c3e491e7fa2af2cb486604739c3baecd5ddab3fd5f559490631678ea10b856cc,a671250980c37ffc,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.34 (1).jpeg,healthy,0,hea__grp_0038,dev,2,9966761f2892989f91f24e0153ac58f66b349c24dfb9335fbcfe902841c8656e,b756ade539b15061,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.34.jpeg,healthy,0,hea__grp_0038,dev,2,7cfb4b0e1927ee8c131134fc30188f836365b77a63140f3f9e83828fee04bed8,b668bcf678e20869,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.35.jpeg,healthy,0,hea__grp_0039,dev,1,b72461af4d27f095f6366e9571987acfead67dfc6bca6f27effeafab05d982b2,b32cad0bcecfbc90,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.36 (1).jpeg,healthy,0,hea__grp_0040,dev,0,260e067d788be5322834a64d2d18d6ed2ad6d75c1a1ede6b3bdfd6cae3919b87,a7176d951cda0aa9,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.36.jpeg,healthy,0,hea__grp_0040,dev,0,1ee9e1ff5f32ba78f0bcdab5302c9ac2ed568dccd127d3ff53f4dd467e574b67,e341efd20f8b5a0a,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.37 (1).jpeg,healthy,0,hea__grp_0041,dev,3,56b0b77bee2a31300b062fb04dcee80aa5db0318f656cfd1852fdc1c084aacfe,f6b8c99d1f96584a,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.37.jpeg,healthy,0,hea__grp_0041,dev,3,94f2fb2722bf4c4dc8da22259d5bccd6862cd999e69ea46df5e0eb7431caabc3,b20b9b8b9aba68e6,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.38.jpeg,healthy,0,hea__grp_0042,dev,1,88c2cb9e5c4baa097e5eca90a10cdf7655f18d23efb9bf9b08deab95b9c55d31,f635e56909871ad6,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.40.jpeg,healthy,0,hea__grp_0043,dev,4,06ac756e25ceee8636bda01d2d011bd0033c15c6d56bb17c19205967b650a845,f37ce068788b5a96,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.41.jpeg,healthy,0,hea__grp_0044,dev,0,97be5fafe95343857cbe37c79e42ae17f2d3cb7ed545707678fe925e9a54e0b8,b70a7cd71d8487c7,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.42 (1).jpeg,healthy,0,hea__grp_0045,dev,3,c6b514e24caa9b10624c1e9604ed7ace8d6c86e8804488a7f4b7b6633c49df8f,f25099d64cc75565,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.42.jpeg,healthy,0,hea__grp_0045,dev,3,a9f6b9978742a20bae35154a68f736022f5d762c58ba308933b5c3803daae278,e33ce98a49c7c7d2,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.43 (1).jpeg,healthy,0,hea__grp_0046,dev,0,f9e9db3431dcf325f6732e382e9648b4b2d620c647f0bf7ee6652457af85644f,e660a1f36df41e12,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.43.jpeg,healthy,0,hea__grp_0046,dev,0,556361142206dcc3d087ceff0da4051b80b22f40fbf7b94be7a96f286adcb2f7,b66ce9690d975c02,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.44 (1).jpeg,healthy,0,hea__grp_0047,dev,0,ee91d94a4a2a8a7e6f83ba36e8c291bd364ada17fbf15da02ad2eacf8a2fe419,a70aa0a60bc1bfff,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.44.jpeg,healthy,0,hea__grp_0047,dev,0,277d77b705bce1fc2c987da77cee5a0f944a62dcadea08689f5c26c8b02e5d60,a601e56969ee0b96,960,1280
+data/raw/healthy/photo_1448-03-27 11.19.45.jpeg,healthy,0,hea__grp_0048,dev,4,d24fc559c0ab3e9d461fc1d18bac261c4cee79963ba3c9e7eee146e790561e55,a3dca8f4ebd5840f,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.03.jpeg,healthy,0,hea__grp_0049,dev,3,d4eacdaa4c690e4a2fc7689a467c2db0e585302850622281f5b80e6acbb0562a,f668ea692d9f5003,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.04.jpeg,healthy,0,hea__grp_0050,dev,0,e2906c40681303a8c3c40ee90c565a5818e8ebdd6603d0a7ff5087e63dcbc5e8,a70d2db55c9428f6,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.05.jpeg,healthy,0,hea__grp_0051,dev,2,4624e873f3f13f3193f0d504dc77963c285d85b8ec05cd8d403af6e170f32712,f35cb0fae1c149f6,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.06 (1).jpeg,healthy,0,hea__grp_0052,test,-1,9c622ad03977220ca25863905482c2ab5deb1715d79b64a6b802efe52baed856,b613eba458ca09f7,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.06.jpeg,healthy,0,hea__grp_0052,test,-1,428b24fe5cd6508ed9d9a594589018dd23881e7b89627a8b1ffa7c97e2e9dbda,b20ebe680c0d4edc,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.07 (1).jpeg,healthy,0,hea__grp_0053,dev,4,0c972bd16cc2adbd126db53e9fd51c8ab158cc0987c2de61f233c4cab87b8d4c,b314b89659bf9cc3,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.07.jpeg,healthy,0,hea__grp_0053,dev,4,12e84c6b4aac7b0deb5232e1f62a08c783efe6f56b67a62d566628bbf5abbf43,e219b9a74e14ba87,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.08.jpeg,healthy,0,hea__grp_0054,dev,2,e44c47f1f111d7045273b2eb9787b89cb51108fddf41b3a40f33186405f10abb,b3480ef7e8b84997,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.09 (1).jpeg,healthy,0,hea__grp_0055,test,-1,e242186d2ba9f0d9881e5d283b529ca28ce7d9806def6b8e408e1c33e688c880,f64cf1502ece1d9a,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.09.jpeg,healthy,0,hea__grp_0055,test,-1,0ebfa7d8ada76c4504414c1f9e5da40aa8dbe12b13facabfece0cb570204bef1,a65ca34c9c961e8f,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.11 (1).jpeg,healthy,0,hea__grp_0056,dev,0,d0944e20b0a57fa47dfb9304d1dcdc8402d29c0ae075a042b73dff2e4adc7ba0,a248e8a3655512fe,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.13 (1).jpeg,healthy,0,hea__grp_0057,dev,4,d8fdb210dc09ee88e3ce6bbfdd2bd273b47f12b8b73711cc7d1e0891abb40c12,b31452f60a6f922b,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.13.jpeg,healthy,0,hea__grp_0057,dev,4,48348d15efebc7ee12477e28dfd551cc8f1f8618224f6b25f0ab94c0c87420d1,b272e11d39da19a1,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.14.jpeg,healthy,0,hea__grp_0058,dev,1,ec6573a1c1cbf824931bc787462e4b9c4b95be7a9cee9dfe7c9857a010c99949,f3949fd672b226b4,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.15 (1).jpeg,healthy,0,hea__grp_0059,dev,3,c89c9d92d87aa8681e657d98ef1fa04def2c02cf56db2f5ce4ac159101e82830,b274e169e56524b4,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.15.jpeg,healthy,0,hea__grp_0059,dev,3,9d876407c87dc8f2acdbcc04d241db6c71162d574b398f3ab0e91704a651fd59,f0fd5ad2650b0924,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.16 (1).jpeg,healthy,0,hea__grp_0060,dev,2,bad6e51d529f323fe8309df845f994c2b1ae2a6ea45b3310635cc583ba6d14e5,f344efe94cd39268,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.16.jpeg,healthy,0,hea__grp_0060,dev,2,c21f5bf157ca160632c9cdb78995b5accdab35b1cadbf7d9c57386798168e716,a231059f0bd9f994,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.17.jpeg,healthy,0,hea__grp_0061,dev,3,dcdbbb1de9959343fd02fd7779f7c60a768a5b34f9941a62d7a1f90ab35301c9,b638fcf25c5cb202,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.18.jpeg,healthy,0,hea__grp_0062,dev,3,bf2a5c111a3396d31f1102010c2a9b4bb5c910cc4baa7053b33e28a8ee3e6bba,b326fc9d1ee14544,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.19 (1).jpeg,healthy,0,hea__grp_0063,dev,1,b2cb819f4754b54c0482540a633bac3672451740e4d8e3b94884badf03fe2f3b,f346be9c38f2c1a7,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.19.jpeg,healthy,0,hea__grp_0063,dev,1,7b8b816c95894c1aaf43bcb0db9764552187c4aeebca1d4f6024fac924858bbe,f31c7cdcccc2d929,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.20.jpeg,healthy,0,hea__grp_0064,dev,2,9c24450fef66d6ca225eca544283277070622a0626d43a08655276b9b97aff09,bc4d899dcd34e46a,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.21 (1).jpeg,healthy,0,hea__grp_0065,dev,0,d134b4441149d76277ab78893ac8724b92129126cb0b919ebc0c17259edbd15d,f1992f758626d8c9,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.21.jpeg,healthy,0,hea__grp_0065,dev,0,630d0e42f77b468e31740c0bab75fe59eef123e9cd0b11bd2fc0870ff28728e6,b310c9878ff3b6b3,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.22 (1).jpeg,healthy,0,hea__grp_0066,test,-1,09d4bf2f2c44d61d2d59a2b4b1e70436e2cb36a40ad9051868227c7f56051a13,a611cece54c6616b,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.22 (2).jpeg,healthy,0,hea__grp_0066,test,-1,cfff0244e5e9ec7d16c9a6381e54ba0d5d3da3c4e8ccff6ec611724ffcc8377a,f11cee708b798827,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.22.jpeg,healthy,0,hea__grp_0066,test,-1,d29499fa9fa93d23ab6cd6d26e4dad23bf3edcb087ce071806000c3fe5e790db,f34dfcd44ec30929,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.23 (1).jpeg,healthy,0,hea__grp_0067,dev,1,443f919ceae5c173c0bae8d451858af5e82d895e38673587d126d82dddff3caa,b7cdd0a0f65faa38,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.23.jpeg,healthy,0,hea__grp_0067,dev,1,3762baca9aa644696bba78ed2eb4b424a59280b9a42583d44e4fb392d6d0cef9,a20cd9c14dd747b2,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.26.jpeg,healthy,0,hea__grp_0068,dev,2,e5814cac51da97cac2dd07f09f9729b80287b8e9db7acb5e5c92b596d1590593,b304cdd60fb73c42,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.27.jpeg,healthy,0,hea__grp_0069,dev,1,a5b023761e797481abf141e2f75f31ff840df07076ef9dd7a2b4d17e0f6af774,f7c5bcc626062e3b,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.28 (1).jpeg,healthy,0,hea__grp_0070,dev,2,5d5d19a03e465ab398703f9798e96567097b645fee6c78496643db5069a31b90,b32c6cf258c30fe1,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.28.jpeg,healthy,0,hea__grp_0070,dev,2,28d64c1f8b191144d3d52c6077e8e3cff979df6172a06bd93b3b20743479fddd,b33daa89a783435b,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.30.jpeg,healthy,0,hea__grp_0071,dev,2,c91a538d544d5854b45c837169e8eab995a39823c1b0b4852a0e7600992b7e7e,a6252db561005eaf,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.31.jpeg,healthy,0,hea__grp_0072,dev,1,75c0e94e43350449752bddca68894e790405288263899786fccee84f8c13e370,a7065d814db6d762,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.32.jpeg,healthy,0,hea__grp_0073,dev,1,79eb0f02d51b32698fe1fb00a4883a2611c55b8f5f97ffc256cf147be14a0b76,b146bec006e34b3e,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.33 (1).jpeg,healthy,0,hea__grp_0074,dev,1,dc39f0dec53911964ea1d588c8911e9adafc922af8eee2e359c014b28cde1108,ad02f2cd487ff0ac,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.33.jpeg,healthy,0,hea__grp_0074,dev,1,224b6f0b204dfd544b3cc98a8c61074f7d89698d98df71aef71f9fa70d5ff8cb,b04ba1e767f8c08b,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.34.jpeg,healthy,0,hea__grp_0075,test,-1,56ab410c345ff185c974a64f1b1ef70da71aaba9479759308e267e5bcbb528bf,f3170cbad8d5bd06,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.35.jpeg,healthy,0,hea__grp_0076,dev,2,64d7e0fe8862fbe18194796839d4e295e3399be98054f2c22a724132214d13a7,bc5ba7b89c2e942c,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.36.jpeg,healthy,0,hea__grp_0077,dev,2,7c0e4bd06bf7a6a549832bd3e8ca134fb8295366ac53aae69aaba7125ad60a27,f399acc35978194b,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.37.jpeg,healthy,0,hea__grp_0078,dev,2,4a6a477f559eb1c15631842d744e3d39f79566b96b38b30dc72e656ab2a10099,a7d2cbd34f1a870a,960,1280
+data/raw/healthy/photo_1448-03-27 11.20.38.jpeg,healthy,0,hea__grp_0079,dev,3,0b087cc6bb6524d7815cce04b22cd9f29e6508e572fa67475d65b649596c8d78,a06afefca4965c80,960,1280
+data/raw/healthy/photo_1448-03-27 12.27.20.jpeg,healthy,0,hea__grp_0080,dev,2,32d255e0b43459e50d5dc9533c2195b04b88609d961f1016eadd32fc27d42ec6,b3744ca0443dd33b,960,1280
+data/raw/healthy/photo_1448-03-27 12.27.23.jpeg,healthy,0,hea__grp_0081,dev,0,938c09d9eca72529f141fb7b9a4da2b37cdae888fb6c9debd4040905e7546d2b,a53eaa2b58a12716,960,1280
+data/raw/healthy/photo_1448-03-27 12.27.24.jpeg,healthy,0,hea__grp_0082,dev,3,f15c5177c79376f082c1699637d4b2c2213a8ad64c27be97f77f4ab4915ee033,b44cef4d02f2540e,960,1280
+data/raw/healthy/photo_1448-03-27 12.27.25.jpeg,healthy,0,hea__grp_0083,dev,4,dfc58f1ef07fd1a1eb3cfd85597e0519b516508f9bcd4cdc438ee2f68d0c83aa,a521c12eeee8535a,960,1280
+data/raw/healthy/photo_1448-03-27 12.27.26.jpeg,healthy,0,hea__grp_0084,dev,4,94b79514163c351488e68576602818b976e1374df231bb51a74165cb5e4b6203,e84b2df848293a68,960,1280
+data/raw/infected/Screenshot-2024-02-01-181750_4_jpg.rf.98ae04824488808dc6db53b27195a061.jpg,infected,1,inf__grp_0085,dev,0,7da48df89d96dfaff6f228e440591823b807bd5f3ad7de8458f6f45b0c40f083,c0c597169ed20f23,300,300
+data/raw/infected/Screenshot-2024-02-01-181812_4_jpg.rf.3007a747b6aceaee515bdd02791d0054.jpg,infected,1,inf__grp_0086,dev,0,bd76a909e0aa9e8f2bd0c90494c3d066149ff13ed136d16aa2c2e1fd8b5b436b,a46294c8c23fb74d,300,300
+data/raw/infected/Screenshot-2024-02-01-181931_3_jpg.rf.1b97634d5cdeabaa06d6dd4e1edf2556.jpg,infected,1,inf__grp_0087,dev,0,d5b71e2bc7a354d86c3050a65707f289e138435a65a2b06f7ae597f1094ea07d,fa972469016e7b83,300,300
+data/raw/infected/Screenshot-2024-02-01-181951_2_jpg.rf.87b953bdf142cb49fc11f204889d882e.jpg,infected,1,inf__grp_0088,dev,3,913a1c26f01b6f4290adf1fbe0c02a73be8abe638b1b002e9ff1d6dbaa8e05c8,e2655d9838cc46b3,300,300
+data/raw/infected/Screenshot-2024-02-01-182031_3_jpg.rf.005350c7327267754a440fa49a3cbc11.jpg,infected,1,inf__grp_0089,dev,2,7310e785a16bfcdd4ad80a4e8aba76ac0008bd11c29df704a26010d9775ceee3,b60e4bf5490952b6,300,300
+data/raw/infected/Screenshot-2024-02-01-182127_4_jpg.rf.33cb7f6735dc10cabb2613d043841750.jpg,infected,1,inf__grp_0090,dev,0,9bdf2925fd556afec327da09cd0e7619b648e0c7177d784551c6a8644b37f20e,914fc49067363169,300,300
+data/raw/infected/Screenshot-2024-02-01-182213_1_jpg.rf.0381788fe026ab233540eeef0317bbeb.jpg,infected,1,inf__grp_0091,dev,3,d7461cb86d32da3cc8a7ac8234b5961af96018f3e29a2ae4a4b69642ffb25985,aff4504b1338768d,300,300
+data/raw/infected/Screenshot-2024-02-01-182231_3_jpg.rf.3a4135d70130e5669974d0d94b9d2dd5.jpg,infected,1,inf__grp_0092,dev,0,482c6e378b1013008c82dd88093a77308a3be85e7e096187862153de932ec67c,a0585c9363274b8c,300,300
+data/raw/infected/Screenshot-2024-02-01-182300_4_jpg.rf.6161244fbbf767f79cf56fa7c80b1ee0.jpg,infected,1,inf__grp_0093,dev,4,429f432f0cb902518b20d56cfc76adf7a3a98d2968d04a6195a82fdc0d4b95c5,916694998be3634d,300,300
+data/raw/infected/Screenshot-2024-02-01-182321_3_jpg.rf.8c39e1f773c3fa3e503d76717ace1a5b.jpg,infected,1,inf__grp_0094,dev,2,7b8ca14b90866e5f65407cb5da7c771f7d4393710929a1948494a011557b7cef,f81206e070ffaf93,300,300
+data/raw/infected/Screenshot-2024-02-16-183527_4_jpg.rf.729e79941207a397cadc259502d3245a.jpg,infected,1,inf__grp_0095,dev,3,eefe524576522860b899f546e95cac9bc8ab89f2d248414b1100895f4cc9cf14,c162c93c69871e61,300,300
+data/raw/infected/Screenshot-2024-02-16-183608_0_jpg.rf.30eda8a66e32f0337cc16e28e39ff906.jpg,infected,1,inf__grp_0096,dev,1,68658e55765a4951a485d8c3e3e02c0285ff6cc5d459d58754f5d28f247d72af,91d27a2c0d816c7a,300,300
+data/raw/infected/Screenshot-2024-02-16-183608_3_jpg.rf.dae4fb5fa7019935c4e0c8314d996d82.jpg,infected,1,inf__grp_0096,dev,1,4cc66a3d3b1f8df26eefed91ab2a572a2a733d92579c5a190ed38c570acecab2,c4782f86582b39d0,300,300
+data/raw/infected/Screenshot-2024-02-16-183639_0_jpg.rf.45ee5f0fffeab763a26cbcf290f0b27c.jpg,infected,1,inf__grp_0097,test,-1,b6e4ba25c6c9e443452dbb59b949266d6533e0c80f8b5f2321133b2bbfdd24d3,ca21359353cd0c76,300,300
+data/raw/infected/Screenshot-2024-02-16-183639_1_jpg.rf.ad66b178da985d240139b9410a720b8c.jpg,infected,1,inf__grp_0097,test,-1,a03eb1096916f4601b58538c7234b60d25d889713dca3bc920418d23af312968,9f7561c706985927,300,300
+data/raw/infected/Screenshot-2024-02-16-183639_4_jpg.rf.e9aa863419735ac5afad82ac5cfb530d.jpg,infected,1,inf__grp_0097,test,-1,778d9cc8a141aa16f83125e67e254feeb61862e1f37bf9609fce2054181be747,948d61398627997c,300,300
+data/raw/infected/Screenshot-2024-02-16-183657_3_jpg.rf.96beac6d63fb244de79453e19c29e27f.jpg,infected,1,inf__grp_0098,dev,1,19cb5feddb0a8e6e69a5c1a446a84f07b6c126c7f31880caa9d2bd2d611e26ec,ff7f55930dca01e8,300,300
+data/raw/infected/Screenshot-2024-02-16-183742_2_jpg.rf.127d1332a0282274b6101b452ca23072.jpg,infected,1,inf__grp_0099,test,-1,d8a8f83a4421378550c32e50f04a3fc83066733e2947438e515c124ab995d194,84a478590f5b5038,300,300
+data/raw/infected/Screenshot-2024-02-16-183742_3_jpg.rf.3f1bb2c82a707ac55e44158f2db76cce.jpg,infected,1,inf__grp_0099,test,-1,4a65bdab7b66b9cf249dffd07330d0bbcb7f7494fbda99fdad848e5ea0da6229,d0f12f0c5a0a056d,300,300
+data/raw/infected/Screenshot-2024-02-16-183819_2_jpg.rf.4f14f4cbcec5f876f80c0e2c132615b3.jpg,infected,1,inf__grp_0100,dev,1,5da0a512c8efb30fcd8956319ac37e80fe4237a5f5bab4acc028fa1fbbed9c26,c63fcb3416c99c18,300,300
+data/raw/infected/Screenshot-2024-02-16-184254_2_jpg.rf.406ae41ce5727525295d8dc10a646501.jpg,infected,1,inf__grp_0101,dev,2,9c45c43a1f68871337f1cc8d0e076eba15ce60b266a156c00196abb27136aa63,feb8004f3d7427aa,300,300
+data/raw/infected/Screenshot-2024-02-16-184254_4_jpg.rf.0ab751ae673ed71d4eceb1fbb0b68ce5.jpg,infected,1,inf__grp_0101,dev,2,3beca401a1d075b84e277b4f9211f466d2d9221584c79d8b7902354ba549f7ad,94c19a9b8ccbe64f,300,300
+data/raw/infected/Screenshot-2024-02-16-184455_4_jpg.rf.2d8f63ba062e7e153bc94083eedee6c0.jpg,infected,1,inf__grp_0102,dev,0,93fe5c8c7f6586d8153f3eff7c03c06c97586d50500b756040c452bd83217168,913427c5ccc9927e,300,300
+data/raw/infected/Screenshot-2024-02-16-184511_4_jpg.rf.492ec6b36dba0987c5ebe606703fb882.jpg,infected,1,inf__grp_0103,dev,4,3d87bd32e50e213da6adc0ff2d58af18f62b72542cec26f3b10c9992a8440ea7,d5720a8c7b8de172,300,300
+data/raw/infected/Screenshot-2024-02-16-184557_4_jpg.rf.69c8afefff72f2b6bfef89914ecee8f1.jpg,infected,1,inf__grp_0104,dev,4,ff9b272e70f770a4c60b95955ad00348cd6d46e83341e9be96125848251ca13c,d4719479e2f0c3b6,300,300
+data/raw/infected/Screenshot-2024-02-16-184728_0_jpg.rf.64dff5426df2f83aaebd0fe92ea9ed38.jpg,infected,1,inf__grp_0105,dev,2,dcd31d8f0e9e7dde8b1393ec6046ba248fd2ebe79dc69bef4bf1790033622d5c,954ada979449d64e,300,300
+data/raw/infected/Screenshot-2024-02-16-185245_3_jpg.rf.c47e407745e6fa44a22b02fa31e4b68f.jpg,infected,1,inf__grp_0106,test,-1,9c7f2d8d9e8cc7b791b8fde4acd9912e9d70c76be152ed3dc6b29498e8c4cb3b,e521194d56a3745a,300,300
+data/raw/infected/Screenshot-2024-02-16-185322_1_jpg.rf.223badb2558324e9811c6889bb60bca0.jpg,infected,1,inf__grp_0107,dev,0,5b789af924b0159cd1b3f26913e4e532a3927275e82b54872f69abcd9871de4e,a97c575b0025128f,300,300
+data/raw/infected/Screenshot-2024-02-16-185352_0_jpg.rf.079b2a1e6b075eb2877df049b59cf5d0.jpg,infected,1,inf__grp_0108,dev,3,48761e2df80f1abcbcc12ebc95dc3f0bfbf95b288585f6d0c4cb926eb9aa3454,bf7b189d468075b6,300,300
+data/raw/infected/Screenshot-2024-02-16-185352_3_jpg.rf.a9e5ce30fe712631bdc84e209488bbf7.jpg,infected,1,inf__grp_0108,dev,3,9026decc31078cd3e1a8adeb83459ee3cc7887820cb4203c2c899ba217083e30,ebd14d37152a341c,300,300
+data/raw/infected/Screenshot-2024-02-16-185527_2_jpg.rf.4101140953d9b5374bb5986257fb9422.jpg,infected,1,inf__grp_0109,test,-1,94f6efa7e95a5cf883a57932f10f55132582a85ee5da7248f298cffe58bf022b,cd64121a75ccea71,300,300
+data/raw/infected/Screenshot-2024-02-16-185527_3_jpg.rf.313389f907ec4b795508133f1b09a8c3.jpg,infected,1,inf__grp_0109,test,-1,9eaf212b0252eb0774b0dab727131c9bd18d389f7524aab62bbdbe0bc00df278,9830474f2299bf24,300,300
+data/raw/infected/Screenshot-2024-02-16-185527_4_jpg.rf.d7d50fbbacbe22a981b6f5974c200f4a.jpg,infected,1,inf__grp_0109,test,-1,9d8f8122a417f85b4d64bbea718969840449ded0d8449ee75b4283f2b8449db0,939a1e6cc3996b8c,300,300
+data/raw/infected/Screenshot-2024-02-16-185554_2_jpg.rf.154b39758f5a6dae23b02b2304db4b31.jpg,infected,1,inf__grp_0110,dev,2,765863113c8d93628b459a0d64cddb87ca115a8f97cae5b5de7ab95d00cc4ada,85e673587ca38164,300,300
+data/raw/infected/Screenshot-2024-02-16-185554_3_jpg.rf.aa1c706f833a6a9d4a7ed9f3acfcc998.jpg,infected,1,inf__grp_0110,dev,2,7a584c18f33fc6201cde5cda3e71198db4e69e0916a77ea8e1c6fef8038edb42,d4b3260d29f6d431,300,300
+data/raw/infected/Screenshot-2024-02-16-185611_0_jpg.rf.130f6085a1232e61eb330aba17b5f93d.jpg,infected,1,inf__grp_0111,dev,0,ef808e6a57c077e300e1fe7c43bae4955e3e8a4b90ba56a8f85a0a9147ada35e,c4e227963dcc924d,300,300
+data/raw/infected/Screenshot-2024-02-16-185611_2_jpg.rf.081df2125536f230e4bd91bb85042a12.jpg,infected,1,inf__grp_0111,dev,0,476c8fa2da5e3173ebc777f26bd5119db2d6cacf0d64cf433dc3f5faa4df7f3a,c40c27693d239ab2,300,300
+data/raw/infected/Screenshot-2024-02-16-190409_0_jpg.rf.6b86656c28b62a55df25272a46b83883.jpg,infected,1,inf__grp_0112,dev,4,2508b2793bffd0ec32d9f0e4dd516341d905650c4aaf063c2d49c92a0bd1641c,99845c5361753259,300,300
+data/raw/infected/Screenshot-2024-02-16-190409_1_jpg.rf.516d9c1ddd96356ad9c7aeaf82aa6ca6.jpg,infected,1,inf__grp_0112,dev,4,6f25ff6bf639eb7eaadf200018277ecf70977646060ae11f75de1e7f22484ff2,ccd90b0e3622670d,300,300
+data/raw/infected/Screenshot-2024-02-16-190448_0_jpg.rf.e3eed1240dd9369f1d1a6b1065c494be.jpg,infected,1,inf__grp_0113,dev,0,1f30c88a24b81679f5964c55e6ff2218793e2880c46c0231c1066eaa2d5e5704,95256b4c99ca13b5,300,300
+data/raw/infected/Screenshot-2024-02-16-190658_4_jpg.rf.484620f4256f63a98c7cdc44065e5ab0.jpg,infected,1,inf__grp_0114,dev,0,9d3bb0a0aef78eaf3a489581e321d0f9cb8e02da218e28503e4feed7a3c11db1,f2e760f84b96091d,300,300
+data/raw/infected/Screenshot-2024-02-16-190906_4_jpg.rf.5470b78645c618eeb81707926c9cce50.jpg,infected,1,inf__grp_0115,dev,2,4d5ebc845d7ccea9944295eb8b0010125f5168c1acf1a3b96aa77ae5f965f5b8,fa7317a5259c482b,300,300
+data/raw/infected/Screenshot-2024-02-16-192029_0_jpg.rf.04f63cd19c419d800fc6cea355fac2fb.jpg,infected,1,inf__grp_0116,dev,4,26fbf7d5ecdff5bad89ee05939e0ea6a62597c5240ca060e2835147f158cb237,9a5344ad61791789,300,300
+data/raw/infected/Screenshot-2024-02-16-192029_1_jpg.rf.e0bdd35c4bb3dd18a72762ff31a299f6.jpg,infected,1,inf__grp_0116,dev,4,faaac29d519bb6308b9cc75b226c45427e19369b1141582199819295febf0fd5,cf0711f8342d46dd,300,300
+data/raw/infected/Screenshot-2024-02-16-192044_1_jpg.rf.2fa3efdbcb23daf5a3c602060a41153d.jpg,infected,1,inf__grp_0117,dev,1,3fb8de47a80b5501f78cfb87acd6a2683d5c8794d9fd4401d448a179be0410d0,fe2e00d063973bf9,300,300
+data/raw/infected/Screenshot-2024-02-16-192058_4_jpg.rf.d4869771faeaef2aae82045f06449584.jpg,infected,1,inf__grp_0118,dev,3,cc8fd5e7f830d32e1574a1366bceafc70d8c8c0c49767d68180f0a89634207e0,c09ecf9c9960329b,300,300
+data/raw/infected/Screenshot-2024-02-16-192623_4_jpg.rf.89363b4276d2afb194113fd311265939.jpg,infected,1,inf__grp_0119,dev,1,1bd5f1ae9d6ba81338bfaa713ca595b0a464a0c2eef0acd72c58be96580107df,c4a57866c2921edb,300,300
+data/raw/infected/Screenshot-2024-02-16-192636_0_jpg.rf.da8b24acaf64f29c2a1c0500fdbc0fdb.jpg,infected,1,inf__grp_0120,dev,1,ff244f137b0f1f4c12e80298a6000694e8e54e536c08f1899fb04a8daba6a8cb,ff0711d946387327,300,300
+data/raw/infected/Screenshot-2024-02-16-192658_0_jpg.rf.7315090119441e93fcf724e7427f5395.jpg,infected,1,inf__grp_0121,test,-1,4dfe7215f81f6ad0443ec0132d914e98eb416fb17bc45698d6a78fe9d5b85ec7,c49794d3d22d5ae2,300,300
+data/raw/infected/Screenshot-2024-02-16-192658_1_jpg.rf.6442a7cd829f7bea271313f2dd3c675e.jpg,infected,1,inf__grp_0121,test,-1,d3bcaa20036673583a7a7b8fddf8808c272de6ccd4cbf57a8aa7b14792790c27,91d2c58687780fb7,300,300
+data/raw/infected/Screenshot-2024-02-16-193224_1_jpg.rf.10fff2cdeeae93213e68d7bb619ca4e5.jpg,infected,1,inf__grp_0122,dev,1,33ab3494d6ac19c480db0138976cbda21f83c1ee08a6528464885fc8efc62c59,b4545343d9cc8cee,300,300
+data/raw/infected/Screenshot-2024-02-16-193224_2_jpg.rf.bb58f7bc2917294f8e42d2b6c63bb0b8.jpg,infected,1,inf__grp_0122,dev,1,2d8894400cd3f69582b01940e82146cf355b208ab536f6c25d24a3f80333f430,e1fe86e18c67d944,300,300
+data/raw/infected/Screenshot-2024-02-16-193630_3_jpg.rf.4f6492867b0b81949fbce5b1b99c5dd9.jpg,infected,1,inf__grp_0123,dev,4,d5d7e7bf8dc3a09ee3f11bdbdc22ef55a95192160026006cb9934820155b9850,9049953ac8b63ab6,300,300
+data/raw/infected/Screenshot-2024-02-19-204218_1_jpg.rf.9e864bac011737f174275024a70b8c5b.jpg,infected,1,inf__grp_0124,test,-1,8b89f9c0505819901aa35fa95d924747145998b8bc5149740cbfda3ffbd23946,e5971a68597572a0,300,300
+data/raw/infected/Screenshot-2024-02-19-204218_2_jpg.rf.637f24a894b5a9a0f01cfaead662c749.jpg,infected,1,inf__grp_0124,test,-1,5a468f98021f2b85c9670cb5e351304ee97562bcd623d11daecc934d774ca089,b03d4fc208df2708,300,300
+data/raw/infected/Screenshot-2024-02-19-204218_3_jpg.rf.524a9948aad4fbe138dd5a2fc24cee36.jpg,infected,1,inf__grp_0124,test,-1,65b1162d23e4003ebf887830ce21737b0933a02481043ba29f3270756e0527cb,e5681a97598a325d,300,300
+data/raw/infected/Screenshot-2024-02-19-204218_4_jpg.rf.51c62e5850f376ee4e6e030a9618c8de.jpg,infected,1,inf__grp_0124,test,-1,1fd700da3f655725f3091dc71673fb4b5e10cb9e8983650a1967bad98cefe1c0,c1619791383b6233,300,300
+data/raw/infected/Screenshot-2024-02-19-204251_3_jpg.rf.e3a75c89eb4125768bbaafd3cbb44ef4.jpg,infected,1,inf__grp_0125,dev,0,173f1156323577ee0c7cf7e692ab44299331cfcbbb661906b9a88a020e4d3353,cf5330a837970a75,300,300
+data/raw/infected/Screenshot-2024-02-19-204251_4_jpg.rf.a7e8f50341bb0ee83acea8b7cb1fa4e2.jpg,infected,1,inf__grp_0125,dev,0,c9f0b069ca3aaec18d91c7cdb9aad552ec6ecdd853560f304d92756023c0a5cf,c16b6c85c6279961,300,300
+data/raw/infected/Screenshot-2024-02-19-204447_0_jpg.rf.94adb684c91630965585ec1241deb6b4.jpg,infected,1,inf__grp_0126,dev,2,056d99fe32214c0559de29baa8cbc6a87d77c110667167f2a8b15918df96b75b,c1c13158cc330f7c,300,300
+data/raw/infected/aa.png,infected,1,inf__grp_0127,dev,3,795cc7fee9334ecc5c5e3a8b121d6ebf1c2359a140447924cf9fbd60d03c3353,be40b73b94b91799,865,649
+data/raw/infected/d.png,infected,1,inf__grp_0128,dev,3,385c547ae5da9f3df3f4f7a29b961857ab5f75030d25195e1888edfd0496fee8,ab2aa2fa101cff07,1540,1764
+data/raw/infected/dd.png,infected,1,inf__grp_0129,dev,2,53252e1c2dbe2c51368a59727e15affc4582fdbf18e158ad44e64e93608374ee,a4903b92646d9aaf,866,649
+data/raw/infected/dddd.png,infected,1,inf__grp_0130,test,-1,d142feff0aa170f794577e8f45ad17b9c4f746b4f76760078c11715339d6eb53,dd1939c7f3e2d029,865,649
+data/raw/infected/ddf.png,infected,1,inf__grp_0128,dev,3,d4b0a3e499ca37204455d1c227be61c2c1cbba2435fb5d12cdff192308a2e6c2,ab2aa2fa121cff03,700,802
+data/raw/infected/f (3).png,infected,1,inf__grp_0131,dev,4,da56bd8062910b0e6752544c6744f8c9e6a958d9580cce7ebc829a6f25b4e5fa,b0dada8a15f73428,1708,1872
+data/raw/infected/image170.png,infected,1,inf__grp_0132,test,-1,41ae13bdb82dbec53664e65fc414c89a905dacfb6b82265db1ad705b0b22e6f8,e5b5d8225cf49b9a,1285,907
+data/raw/infected/image175.png,infected,1,inf__grp_0133,test,-1,1890e6d51edb6eac630cb45dfab8608990358ee038980edfd59b148f9d6558b4,a2d6cea6a546724a,1285,907
+data/raw/infected/image180.png,infected,1,inf__grp_0134,dev,1,3417793c1f2f0ec94d42ceba0283e1865731f258b9ebdc518713a8eec270d84a,cbc3e56161607e2c,1285,907
+data/raw/infected/image212.png,infected,1,inf__grp_0135,dev,1,14c1cafea63f95d51f1c91f5c47a7826bc9e363658c19d9b00e0629b17bedbd9,fcc5c585ca9cdfd9,1285,907
+data/raw/infected/image215.png,infected,1,inf__grp_0136,dev,4,2f38c9fb001e6e7df3620b248a94c873da2107df2423dbe0cac4232f5fe1679c,b141ca3e17e07e0c,1285,907
+data/raw/infected/image217.png,infected,1,inf__grp_0137,dev,3,557d312baefa2d012e68772f7a1bef7b4a9042464697222aba8b96ba3c14f1ea,caaa62fefea08447,1285,907
+data/raw/infected/image220.png,infected,1,inf__grp_0138,dev,1,ac18c751a75290cb2a25b2c910eb65a3758d2f56f471e900acd0aee97a8631ad,efd0e3d9ad97a0fa,1285,907
+data/raw/infected/image222.png,infected,1,inf__grp_0139,dev,4,305319789d02187df1f0e9bc5e43a36e6bc5b4e18fbbf271f4d78732b30f1bac,e3e29fc9b6666c82,1285,909
+data/raw/infected/image227.png,infected,1,inf__grp_0140,dev,4,f5fcf44c07b40b8b437324d6555055ad0b68888ccddba946f55f26fecaa7cdbd,e39ad5cc39b3b033,1285,907
+data/raw/infected/image230.png,infected,1,inf__grp_0141,dev,4,e532c28c57d9e35e447d72e42c0c7f167f1dba7c91e4e4162e0fd154051f19e0,c5fccacc4b393016,1285,907
+data/raw/infected/image234.png,infected,1,inf__grp_0142,dev,2,0ac910e71c51220194b99a4a300521b37da8459a7a14db0951ee94f28986ea32,b0699e96f1b44c96,1285,907
+data/raw/infected/image240.png,infected,1,inf__grp_0143,dev,2,ad34d35728e433aae33b33b3efb4f03185650c3a215dd014dbbb4570d687c5ac,f5f2c97261d91ab1,1285,907
+data/raw/infected/image245.png,infected,1,inf__grp_0144,dev,3,9f5b8508c266cd85841f654569a31e35af75f88fb11c4f9a470e78944150a974,adb8d2ea05c62e67,1285,907
+data/raw/infected/photo_5812275535856471853_y.jpg,infected,1,inf__grp_0145,dev,1,459af3c3232cb2187c0df9c3769f14c6b36935ca8584143bbc4aa8de54976fa8,f8d4956e4a886a6b,1206,919
+data/raw/infected/photo_5812275535856471854_y.jpg,infected,1,inf__grp_0146,dev,3,d1398a476d5fa993aea18eaa7e1e89b68ade7ab01f8497da4e74dd562ba322e9,e79e9a699a6391e6,1206,1246
+data/raw/infected/photo_5812275535856471855_y.jpg,infected,1,inf__grp_0147,dev,2,84dab1d97ffd54cff7f448884876e98964fe7c01c591c9d402130b74f474c4ce,ea9295374ab82733,1206,1111
+data/raw/infected/photo_5812275535856471858_y.jpg,infected,1,inf__grp_0148,dev,3,c3ede837752cc744d4dc4976626c197d42e7f84eaa5066f6022c2d6f7b3817e8,feb43da2a203475f,720,1280
+data/raw/infected/photo_5812275535856471860_y.jpg,infected,1,inf__grp_0149,dev,4,15dd8768f3dc0aeb66e64b49c7b4b14b442fbb2e0d45e2786fc7393678a3164f,b0f4c1b4ec4a596c,1206,1160
+data/raw/infected/photo_5812275535856471861_y.jpg,infected,1,inf__grp_0150,dev,3,d4c27f299bcdb2a3b12f57101c0fbcf1f3bbf6bddae12e96a4b45604ea85c81e,f0c48ca34bdfa63c,1043,1280
+data/raw/infected/photo_5812275535856471862_y.jpg,infected,1,inf__grp_0151,dev,2,3ef5c8de932949adf7d1484eb531e609671a9addfd69989408f0f427593ecdf5,f4c8fee4caa1c74b,960,1280
+data/raw/infected/photo_5812275535856471863_y.jpg,infected,1,inf__grp_0152,dev,1,080c62a2ed045bdcd943f107949f467cd8f2dca516a7d2b38aba9f73499c93d5,b620f5b9ce7fa014,1206,1078
+data/raw/infected/photo_5812275535856471864_y.jpg,infected,1,inf__grp_0153,dev,2,45e2906ec66b813f8e735867b2a2b3d437494864868fee86c5433aa88f0f98d1,b0db8383f9f9806b,960,1280
+data/raw/infected/photo_5812275535856471865_y.jpg,infected,1,inf__grp_0154,dev,0,cbf4e6904a73d2407ff89157028a6ece69758b4d84e6def61afa71a80f4f936f,b1f12f6c64928cf2,960,1280

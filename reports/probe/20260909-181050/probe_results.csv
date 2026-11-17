@@ -1,0 +1,5 @@
+probe,n_features,oof_roc_auc,oof_pr_auc,verdict
+mean_rgb,3,0.7322361133090678,0.7774828861808942,strong non-disease signal present
+colour_histogram,48,0.9191327741731287,0.9336074599188625,SHORTCUT: this alone nearly solves the task
+tiny_greyscale_8x8,64,0.9363823389776863,0.9362471608196982,SHORTCUT: this alone nearly solves the task
+acquisition_metadata,5,0.9596455135306219,0.9737058106275404,SHORTCUT: this alone nearly solves the task

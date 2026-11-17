@@ -1,0 +1,78 @@
+# Default candidate: EfficientNet-B0 @ 224x224, ImageNet-pretrained.
+# Every value here is snapshotted into the split manifest, the inference bundle
+# and the report, so a result can always be traced back to its settings.
+project_name: palm-screen
+model_version: "0.1.0"
+
+data:
+  raw_dir: data_samesource/raw
+  metadata_csv: data_samesource/metadata.csv
+  classes: [healthy, infected]
+  positive_class: infected
+  # Strongest available grouping wins. tree_id keeps every photo of one palm
+  # on one side of the split; session_id and site_id are weaker fallbacks.
+  group_key_priority: [tree_id, session_id, site_id]
+  phash_pseudo_groups: true      # used only when no metadata column is complete
+  phash_group_distance: 6
+  allow_image_level_split: true  # set false to hard-fail instead of reporting an upper bound
+  # Strongest possible test set: hold out an entire farm or collection session.
+  # holdout_column: site_id
+  # holdout_values: ["farm_B"]
+  holdout_column: null
+  holdout_values: []
+
+split:
+  test_fraction: 0.20   # ~52 images at 260 total
+  n_folds: 5
+  seed: 1337
+  manifest_dir: artifacts/splits_samesource
+
+train:
+  arch: efficientnet_b0
+  image_size: 224
+  batch_size: 16        # M4 Air friendly; drop to 8 if memory pressure appears
+  num_workers: 2
+  head_epochs: 6        # phase 1: frozen backbone, head only
+  finetune_epochs: 25   # phase 2: top blocks unfrozen, early stopping active
+  lr_head: 0.001
+  lr_backbone: 0.0001   # 10x lower: ~200 images cannot safely rewrite ImageNet features
+  weight_decay: 0.0001
+  label_smoothing: 0.0
+  unfreeze_last_n_blocks: 3
+  freeze_batchnorm: true
+  early_stopping_metric: val_pr_auc
+  early_stopping_patience: 6
+  early_stopping_min_delta: 0.0001
+  grad_clip_norm: 1.0
+  use_class_weights: false  # classes are near-balanced; turn on only with evidence
+  amp: false                # MPS autocast is inconsistent on small models
+  seed: 1337
+  checkpoint_dir: artifacts/checkpoints_ss
+  augmentation:
+    random_resized_crop: true
+    crop_scale_min: 0.8     # mild. Aggressive crops can cut the symptomatic frond out
+    crop_scale_max: 1.0
+    rotation_degrees: 12    # handheld camera tilt, nothing more
+    horizontal_flip: true   # a mirrored palm is still a valid palm
+    vertical_flip: false    # palms do not grow upside down
+    brightness: 0.15
+    contrast: 0.15
+    saturation: 0.1
+    hue: 0.02               # tiny: yellowing IS the signal, do not recolour it away
+    mixup: false            # blends labels; wrecks calibration at n~260
+    cutmix: false
+
+threshold:
+  policy: max_specificity_at_recall  # youden | max_f1 | fixed
+  target_recall: 0.9   # missing an infected palm costs more than an extra inspection
+  fixed_threshold: 0.5
+  review_band: 0.1     # +/- around the threshold -> needs_review = true
+
+calibration:
+  method: platt   # temperature | isotonic | none. Isotonic overfits below ~300 images.
+
+report:
+  output_dir: reports_samesource
+  bootstrap_iterations: 2000
+  ece_bins: 10
+  prevalence_grid: [0.01, 0.05, 0.1, 0.25, 0.5]

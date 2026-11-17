@@ -1,0 +1,57 @@
+{
+  "generated_at": "20260909-180816",
+  "manifest_version": "20260909-180812_seed1337_fb02ca6c3c098c5b",
+  "grouping": {
+    "strategy": "metadata_column",
+    "column": "tree_id",
+    "n_groups": 75,
+    "trust": "strong",
+    "warnings": []
+  },
+  "n_dev_images": 149,
+  "n_dev_groups": 72,
+  "n_folds": 5,
+  "probes": [
+    {
+      "probe": "mean_rgb",
+      "n_features": 3,
+      "oof_roc_auc": 0.6539861667273389,
+      "oof_pr_auc": 0.7754263816217514,
+      "verdict": "strong non-disease signal present"
+    },
+    {
+      "probe": "colour_histogram",
+      "n_features": 48,
+      "oof_roc_auc": 0.9217327994175464,
+      "oof_pr_auc": 0.9537342502243998,
+      "verdict": "SHORTCUT: this alone nearly solves the task"
+    },
+    {
+      "probe": "tiny_greyscale_8x8",
+      "n_features": 64,
+      "oof_roc_auc": 0.9208227156898434,
+      "oof_pr_auc": 0.9320575911918698,
+      "verdict": "SHORTCUT: this alone nearly solves the task"
+    },
+    {
+      "probe": "acquisition_metadata",
+      "n_features": 5,
+      "oof_roc_auc": 0.9492173279941754,
+      "oof_pr_auc": 0.9744305025221531,
+      "verdict": "SHORTCUT: this alone nearly solves the task"
+    }
+  ],
+  "negative_control": {
+    "probe": "colour_histogram (labels shuffled - negative control)",
+    "oof_roc_auc": 0.9655172413793104,
+    "oof_pr_auc": 0.9990239583259284,
+    "expected": "ROC-AUC near 0.50",
+    "ok": false
+  },
+  "highest_probe_pr_auc": 0.9744305025221531,
+  "unreadable": [],
+  "interpretation": [
+    "NEGATIVE CONTROL FAILED: shuffled labels did not collapse to chance. Something is wrong with the split or the folds themselves. Fix this before interpreting anything else.",
+    "A trivial linear model reaches 0.974 PR-AUC. The classes are separable without any disease-level detail, so a high score from the network is not evidence that it detects infection. Fix the dataset before tuning the model: matching the photography conditions between classes matters far more than architecture, epochs or augmentation."
+  ]
+}
